@@ -3,7 +3,7 @@
 07/29/2018
 ## Wellington Algorithm
 Wellington algorithm is a novel method for the accurate identification of digital genomic footprints from DNase-seq data 
-proposed by [*Jason Piper etc. 2013*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3834841/), which shares the same 
+proposed by [*Jason Piper, et al. 2013*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3834841/), which shares the same 
 charateristics with identifiction of insertion free region within open chromatins from ATAC-seq data. The 
 [`ATAC-seq_wellington.R`](../pipe_code/ATAC-seq_wellington.R) is an implemention of applying Wellington algorithm to peaks 
 from ATAC-seq data called by MACS2.
