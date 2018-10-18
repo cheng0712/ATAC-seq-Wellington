@@ -13,7 +13,7 @@ cppFunction("
     int n2 = vec2.size();
     NumericMatrix out(n1,n2);
     for(int i = 0; i < n1; i++) {
-      for(int j =0 ; j < n2; j++) {
+      for(int j = 0 ; j < n2; j++) {
         if(vec1[i] <= vec2[j]) {
           out(i,j) = 1;
         }
@@ -30,7 +30,7 @@ cppFunction("
     int n2 = vec2.size();
     NumericMatrix out(n1,n2);
     for(int i = 0; i < n1; i++) {
-      for(int j =0 ; j < n2; j++) {
+      for(int j = 0 ; j < n2; j++) {
         if(vec1[i] >= vec2[j]) {
           out(i,j) = 1;
         }
